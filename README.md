@@ -20,6 +20,35 @@ python3 reel/make_reel.py
 
 Video mein silent audio track hai. Post karte waqt Instagram ka trending audio lagayein.
 
+### @beast.alam par post karna
+
+**Tarika A: phone se (sabse aasaan, trending audio ke saath)**
+1. `reel.mp4` phone mein download karein.
+2. Instagram (@beast.alam) -> `+` -> **Reel** -> video select karein.
+3. Audio add karein, caption likhein (neeche sample), **Share**.
+
+**Tarika B: script se automatic post (AI / bot se)**
+Uske liye wahi Meta App + token chahiye jo Auto-DM ke liye (section 2), aur token mein
+`instagram_business_content_publish` permission bhi honi chahiye.
+
+```bash
+cd autodm
+export IG_ACCESS_TOKEN=...  IG_USER_ID=...
+python3 post_reel.py ../reel/output/reel.mp4 "Comment LINK aur free guide DM mein paao 📩 #instagramgrowth #automation"
+```
+Script reel upload karke publish karti hai aur Media ID print karti hai.
+API se post hui reel par Instagram ka trending music nahi lagta. Music chahiye to Tarika A use karein.
+
+**Sample caption**
+```
+Roz posts daalte ho par leads nahi aati? 🤔
+Har comment par automatic DM, 24x7 🚀
+
+Comment "LINK" 👇 aur free guide seedha DM mein 📩
+
+#instagramtips #reelsindia #automation #business #beastalam
+```
+
 ## 2. Auto-DM setup
 
 Jab koi aapke reel par keyword (jaise `LINK`) comment karega, bot use apne aap DM bhejega
@@ -30,6 +59,7 @@ aur comment par "Check your DM 📩" reply karega.
 - [Meta for Developers](https://developers.facebook.com/) par ek App (type: Business), jisme **Instagram** product add ho
   ("API setup with Instagram login")
 - Permissions: `instagram_business_basic`, `instagram_business_manage_comments`, `instagram_business_manage_messages`
+  (auto-post ke liye `instagram_business_content_publish` bhi)
 - Bot ko host karne ki jagah jo public HTTPS URL de (Render, Railway, VPS, etc.)
 
 ### Steps

@@ -1,7 +1,7 @@
 {
   "_note": "Apne reel ka content yahan badlein. 'keyword' wahi rakhein jo autodm/.env mein DM_KEYWORDS mein hai.",
-  "brand": "REDDOT",
-  "handle": "@reddotdigital",
+  "brand": "BEAST ALAM",
+  "handle": "@beast.alam",
   "keyword": "LINK",
   "fps": 30,
   "colors": {
@@ -15,28 +15,46 @@
     {
       "duration": 2.5,
       "kicker": "STOP SCROLLING",
-      "lines": ["Ye ek trick", "aapka business", "badal degi"]
+      "lines": [
+        "Ye ek trick",
+        "aapka business",
+        "badal degi"
+      ]
     },
     {
       "duration": 3.0,
       "kicker": "PROBLEM",
-      "lines": ["Roz posts daalte ho", "par leads", "nahi aati?"]
+      "lines": [
+        "Roz posts daalte ho",
+        "par leads",
+        "nahi aati?"
+      ]
     },
     {
       "duration": 3.0,
       "kicker": "SOLUTION",
-      "lines": ["Har comment par", "automatic DM", "24x7"]
+      "lines": [
+        "Har comment par",
+        "automatic DM",
+        "24x7"
+      ]
     },
     {
       "duration": 3.0,
       "kicker": "RESULT",
-      "lines": ["Zyada engagement", "Zyada leads", "Zero manual kaam"]
+      "lines": [
+        "Zyada engagement",
+        "Zyada leads",
+        "Zero manual kaam"
+      ]
     },
     {
       "duration": 3.5,
       "cta": true,
       "kicker": "FREE GUIDE CHAHIYE?",
-      "lines": ["Comment karo"]
+      "lines": [
+        "Comment karo"
+      ]
     }
   ]
 }
