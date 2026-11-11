@@ -49,6 +49,22 @@ Comment "LINK" 👇 aur free guide seedha DM mein 📩
 #instagramtips #reelsindia #automation #business #beastalam
 ```
 
+## 1b. Pro motion graphics (Remotion)
+
+`motion/` folder mein [Remotion](https://www.remotion.dev/) setup hai (React se video). Isme spring animations,
+word-by-word kinetic text, moving glow background, slide transitions aur chamakta hua CTA button hai.
+Content wahi `reel/reel_config.json` se aata hai.
+
+```bash
+cd motion
+npm install
+npm run render     # -> motion/out/beast-reel.mp4
+npm run studio     # browser mein live preview + editing
+```
+
+Remotion individuals aur 3 logon tak ki companies ke liye free hai. Badi company ke liye license lena padta hai
+(remotion.dev/license).
+
 ## 2. Auto-DM setup
 
 Jab koi aapke reel par keyword (jaise `LINK`) comment karega, bot use apne aap DM bhejega
