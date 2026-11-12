@@ -1,0 +1,119 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:"Inter","DejaVu Sans",sans-serif;background:#888}
+.p{width:2000px;height:2000px;position:relative;overflow:hidden;background:#FFF7EC;color:#1E1B2E;margin-bottom:40px}
+.brand{position:absolute;top:70px;left:80px;display:flex;align-items:center;gap:22px;font-weight:700;font-size:54px;letter-spacing:-1px}
+.dot{width:58px;height:58px;border-radius:50%;background:#E5202A;display:inline-block}
+.brand small{font-weight:400;color:#E5202A}
+.foot{position:absolute;bottom:0;left:0;right:0;height:130px;background:#1E1B2E;color:#fff;display:flex;align-items:center;justify-content:space-between;padding:0 80px;font-size:44px}
+.foot b{color:#FFD23F}
+.blob{position:absolute;border-radius:50%}
+h1{font-size:150px;line-height:1.02;letter-spacing:-4px;font-weight:800}
+h2{font-size:112px;line-height:1.05;letter-spacing:-3px;font-weight:800}
+.red{color:#E5202A}
+.pill{display:inline-block;padding:22px 46px;border-radius:999px;font-size:50px;font-weight:700}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:40px}
+.card{border-radius:44px;padding:50px 44px;height:450px;display:flex;flex-direction:column;justify-content:space-between;color:#1E1B2E}
+.card .ic{width:110px;height:110px;border-radius:30px;background:rgba(255,255,255,.75);display:flex;align-items:center;justify-content:center;font-size:64px;font-weight:800}
+.card .t{font-size:54px;font-weight:800;line-height:1.08}
+.c1{background:#FFD23F}.c2{background:#7BDFF2}.c3{background:#FF9AA2}.c4{background:#B5EAD7}.c5{background:#C7B8FF}.c6{background:#FFB870}
+.row{display:flex;gap:50px}
+.box{flex:1;min-height:1150px;border-radius:50px;padding:64px 60px;background:#fff;box-shadow:0 14px 0 rgba(30,27,46,.08)}
+.box h3{font-size:70px;margin-bottom:36px}
+.box li{list-style:none;font-size:60px;line-height:1.3;margin-bottom:50px;padding-left:80px;position:relative}
+.box li:before{content:"";position:absolute;left:0;top:8px;width:50px;height:50px;border-radius:50%}
+.yes li:before{background:#22B573}.no li:before{background:#E5202A}
+.step{display:flex;align-items:center;gap:56px;background:#fff;border-radius:50px;padding:60px 60px;margin-bottom:44px;box-shadow:0 14px 0 rgba(30,27,46,.08)}
+.num{flex:none;width:170px;height:170px;border-radius:50%;background:#E5202A;color:#fff;font-size:96px;font-weight:800;display:flex;align-items:center;justify-content:center}
+.step b{font-size:66px;display:block;margin-bottom:10px}.step span{font-size:46px;color:#555}
+.sheet{position:absolute;width:520px;height:680px;background:#fff;border-radius:28px;box-shadow:0 30px 60px rgba(30,27,46,.18);padding:44px}
+.sheet .hd{height:60px;border-radius:14px;margin-bottom:34px}
+.sheet .ln{height:22px;border-radius:11px;background:#E9E4DA;margin-bottom:24px}
+.sheet .big{font-size:230px;font-weight:800;line-height:1;text-align:center;margin:20px 0}
+</style></head><body>
+
+<!-- 1 HERO -->
+<div class="p" id="p1">
+ <div class="blob" style="width:1100px;height:1100px;background:#FFD23F;right:-320px;top:-260px"></div>
+ <div class="blob" style="width:620px;height:620px;background:#7BDFF2;left:-200px;bottom:-120px"></div>
+ <div class="brand"><span class="dot"></span>reddot <small>digital</small></div>
+ <div style="position:absolute;left:80px;top:300px;width:1150px">
+  <div class="pill" style="background:#1E1B2E;color:#fff;margin-bottom:50px">MEGA BUNDLE</div>
+  <h1><span class="red">500,000+</span><br>Kids Educational Bundle</h1>
+  <p style="font-size:60px;margin-top:50px;line-height:1.3;width:880px">Printable worksheets, colouring pages &amp; activities for ages 2–10</p>
+  <div style="margin-top:60px;display:flex;gap:30px">
+   <span class="pill" style="background:#E5202A;color:#fff">PLR + MRR Rights</span>
+   <span class="pill" style="background:#fff;border:6px solid #1E1B2E">Instant Download</span>
+  </div>
+ </div>
+ <div class="sheet" style="right:330px;top:560px;transform:rotate(-9deg)"><div class="hd" style="background:#FF9AA2"></div><div class="big" style="color:#E5202A">Aa</div><div class="ln"></div><div class="ln" style="width:80%"></div><div class="ln" style="width:60%"></div></div>
+ <div class="sheet" style="right:70px;top:820px;transform:rotate(7deg)"><div class="hd" style="background:#7BDFF2"></div><div class="big" style="color:#1E1B2E">1+2</div><div class="ln"></div><div class="ln" style="width:70%"></div><div class="ln" style="width:85%"></div></div>
+ <div class="foot"><span>Print • Teach • Resell</span><b>reddot digital</b></div>
+</div>
+
+<!-- 2 INSIDE -->
+<div class="p" id="p2">
+ <div class="brand"><span class="dot"></span>reddot <small>digital</small></div>
+ <div style="position:absolute;left:80px;right:80px;top:230px">
+  <h2>What's <span class="red">inside</span> the bundle</h2>
+  <div class="grid" style="margin-top:70px">
+   <div class="card c1"><div class="ic">Aa</div><div class="t">Alphabet &amp; Phonics</div></div>
+   <div class="card c2"><div class="ic">123</div><div class="t">Numbers &amp; Maths</div></div>
+   <div class="card c3"><div class="ic">✎</div><div class="t">Tracing &amp; Handwriting</div></div>
+   <div class="card c4"><div class="ic">◐</div><div class="t">Colouring Pages</div></div>
+   <div class="card c5"><div class="ic">▦</div><div class="t">Puzzles &amp; Mazes</div></div>
+   <div class="card c6"><div class="ic">★</div><div class="t">Flashcards</div></div>
+   <div class="card c2"><div class="ic">▤</div><div class="t">Activity Workbooks</div></div>
+   <div class="card c1"><div class="ic">◆</div><div class="t">Shapes &amp; Colours</div></div>
+   <div class="card c3"><div class="ic">❋</div><div class="t">Science &amp; General Knowledge</div></div>
+  </div>
+ </div>
+ <div class="foot"><span>500,000+ printable pages</span><b>reddot digital</b></div>
+</div>
+
+<!-- 3 RIGHTS -->
+<div class="p" id="p3">
+ <div class="blob" style="width:700px;height:700px;background:#B5EAD7;right:-200px;top:-200px"></div>
+ <div class="brand"><span class="dot"></span>reddot <small>digital</small></div>
+ <div style="position:absolute;left:80px;right:80px;top:230px">
+  <h2><span class="red">PLR + MRR</span> rights included</h2>
+  <p style="font-size:54px;margin:36px 0 60px">Buy once. Use it, rebrand it, sell it — keep 100% of the profit.</p>
+  <div class="row">
+   <div class="box yes"><h3>You can</h3><ul><li>Resell as your own product</li><li>Add your own brand name</li><li>Edit, split or bundle the files</li><li>Print for home or classroom</li><li>Pass resell rights to buyers</li></ul></div>
+   <div class="box no"><h3>You cannot</h3><ul><li>Give the bundle away free</li><li>Claim copyright on the files</li><li>Share the download link publicly</li></ul></div>
+  </div>
+ </div>
+ <div class="foot"><span>Master Resell Rights licence</span><b>reddot digital</b></div>
+</div>
+
+<!-- 4 WHO -->
+<div class="p" id="p4">
+ <div class="brand"><span class="dot"></span>reddot <small>digital</small></div>
+ <div style="position:absolute;left:80px;right:80px;top:230px">
+  <h2>Perfect <span class="red">for</span></h2>
+  <div class="grid" style="grid-template-columns:1fr 1fr;margin-top:70px">
+   <div class="card c1" style="height:660px"><div class="ic">♥</div><div><div class="t" style="font-size:78px">Parents</div><p style="font-size:46px;margin-top:20px">Screen-free learning at home, ready to print.</p></div></div>
+   <div class="card c2" style="height:660px"><div class="ic">✓</div><div><div class="t" style="font-size:78px">Teachers</div><p style="font-size:46px;margin-top:20px">Classroom worksheets for every topic.</p></div></div>
+   <div class="card c4" style="height:660px"><div class="ic">⌂</div><div><div class="t" style="font-size:78px">Homeschoolers</div><p style="font-size:46px;margin-top:20px">Years of material in one download.</p></div></div>
+   <div class="card c3" style="height:660px"><div class="ic">₹</div><div><div class="t" style="font-size:78px">Digital Sellers</div><p style="font-size:46px;margin-top:20px">A ready product to rebrand and resell.</p></div></div>
+  </div>
+ </div>
+ <div class="foot"><span>Ages 2–10</span><b>reddot digital</b></div>
+</div>
+
+<!-- 5 HOW -->
+<div class="p" id="p5">
+ <div class="blob" style="width:600px;height:660px;background:#FFD23F;right:-180px;top:-180px"></div>
+ <div class="brand"><span class="dot"></span>reddot <small>digital</small></div>
+ <div style="position:absolute;left:80px;right:80px;top:230px">
+  <h2>How it <span class="red">works</span></h2>
+  <div style="margin-top:70px">
+   <div class="step"><div class="num">1</div><div><b>Purchase</b><span>Complete your order — no physical item is shipped.</span></div></div>
+   <div class="step"><div class="num">2</div><div><b>Download the PDF</b><span>You get a PDF with your private access link.</span></div></div>
+   <div class="step"><div class="num">3</div><div><b>Open the files</b><span>Access the full bundle online and save what you need.</span></div></div>
+   <div class="step"><div class="num">4</div><div><b>Print, teach or resell</b><span>Use at home, in class, or sell under your own brand.</span></div></div>
+  </div>
+ </div>
+ <div class="foot"><span>Instant digital download</span><b>reddot digital</b></div>
+</div>
+</body></html>
